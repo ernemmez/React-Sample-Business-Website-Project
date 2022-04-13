@@ -1,0 +1,89 @@
+.apply-main{
+    width: 100%;
+    background: url(../../assets/media/apply-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    margin: auto;
+    margin: 2rem 0 2rem 0;
+    min-height: 400px;
+    max-height: 450px;
+    padding: 8rem 0 3rem 0;
+}
+.apply{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.apply-title h1{
+    color: #fff;
+    font-weight: bold;
+}
+.apply-content p{
+    color: #fff;
+    margin-bottom: 1rem !important;
+    padding-bottom: 2rem;
+}
+.apply-button{
+    
+}
+.apply-button a {
+    text-decoration: none;
+    color: #fff;
+}
+.apply-button a:hover{
+    color: #fff;
+}
+  
+.apply-button .cta {
+    margin-top: 1rem !important;
+    position: relative;
+    margin: auto;
+    padding: 19px 22px;
+    transition: all 0.2s ease;
+  }
+  .apply-button .cta:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    border-radius: 28px;
+    background: #ed648f;
+    width: 56px;
+    height: 56px;
+    transition: all 0.3s ease;
+  }
+  .apply-button .cta span {
+    position: relative;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 900;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    vertical-align: middle;
+  }
+  .apply-button  .cta svg {
+    position: relative;
+    top: 0;
+    margin-left: 10px;
+    fill: none;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke: #111;
+    stroke-width: 2;
+    transform: translateX(-5px);
+    transition: all 0.3s ease;
+  }
+  .apply-button .cta:hover:before {
+    width: 100%;
+    background: #f43974;
+    color: #fff;
+  }
+  .apply-button .cta:hover svg {
+    transform: translateX(0);
+  }
+  .apply-button .cta:active {
+    transform: scale(0.96);
+  }

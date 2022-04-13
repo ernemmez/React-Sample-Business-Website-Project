@@ -1,0 +1,24 @@
+#header{
+    max-height: 35px;
+}
+.header{
+    background-color: #F24409;
+    padding: 0;
+    max-height: 35px;
+}
+.header-text{
+    color: #fff;
+    font-size: 0.8rem;
+    font-weight: 100;
+}
+.lang-btn{
+    background: transparent !important;
+    border: 0 !important;
+    font-size: 0.6rem !important;
+}
+.lang-text{
+    font-size: 0.8rem !important;
+    /* font-weight: bold; */
+    color: #fff;
+    margin-left: 3px;
+}

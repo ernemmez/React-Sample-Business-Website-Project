@@ -1,0 +1,39 @@
+footer{
+    text-align: center;
+    border-top: 1px solid #acabab;
+    padding: 3.3rem;
+    background: #212529;
+}
+footer .logo a h2 {
+    font-weight: bold;
+    color: #fff;
+}
+footer .logo a:hover h2{
+    color: #E92763;
+}
+footer .logo a{
+    text-decoration: none;
+}
+footer .logo{
+    margin-bottom: 2rem;
+}
+footer .footer-links{
+    text-align: center;
+}
+footer .footer-links a{
+    text-decoration: none;
+    color: #E92763;
+}
+footer .footer-links a:hover{
+    color: #fff;
+}
+footer .footer-text{
+    color: #fff;
+    margin: 3rem 0 4rem 0;
+}
+footer .copy{
+    color: #6d6d6d;
+}
+footer .copy span{
+    color: #E92763;
+}
